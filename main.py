@@ -1,19 +1,14 @@
-# Boolean
-is_student = False
-for_sale = True
-is_online = True
+# Madlibs game
+# word game where you create a story
+# by filling in blanks with random words
 
-if is_student:
-    print("You are a student")
-else:
-    print("You are NOT a student")
+adjective1 = input("Enter an adjective (description): ")
+noun1 = input("Enter a noun (person, place, thing): ")
+adjective2 = input("Enter an adjective (description): ")
+verb1 = input("Enter a verb ending with 'ing': ")
+adjective3 = input("Enter an adjective (description): ")
 
-if for_sale:
-    print("That item is for sale")
-else:
-    print("That item is NOT sale")
-
-if is_online:
-    print("You are online")
-else:
-    print("You are offline")
+print (f"Today I went to a {adjective1} zoo.")
+print(f"In an exhibit, I saw a {noun1}")
+print(f"{noun1} was {adjective2} and {verb1}")
+print(f"I was {adjective3}")

@@ -51,3 +51,88 @@ if is_online:
     print("You are online")
 else:
     print("You are offline")
+
+
+# Typecasting
+
+name = "Bro Code"
+age = 25
+gpa = 3.2
+is_student = True
+
+# print(type(name))
+# print(type(age))
+# print(type(gpa))
+# print(type(is_student))
+
+# gpa = int(gpa)
+
+# print(gpa)
+
+# age = float(age)
+
+# print(age)
+
+# age = str(age)
+
+# age += "1"
+
+# print(type(age))
+
+# print(age)
+
+# name = ""
+
+# name = bool(name)
+
+# print(name)
+
+
+# input()
+
+name = input("What is your name?: ")
+age = int(input("How old are you?: "))
+
+age = age + 1
+
+print(f"Hello {name}!")
+print("Happy Birthday!")
+print(f"You are {age} years old")
+
+
+# Excercise 1 Rectangle Area Calc
+
+length = float(input("Enter the length: "))
+width = float(input("Enter the width: "))
+area = length * width
+
+print(f"The area is: {area}")
+
+
+# Excercise 2 Shopping Cart Program
+
+item = input("What item would you like to buy?: ")
+price = float(input("What is the price?: "))
+qty = int(input("How many would you like?: "))
+total = price * qty
+
+print(f"You have bought {qty} x {item}/s")
+print(f"Your total is: ${total}")
+
+
+# Madlibs game
+# word game where you create a story
+# by filling in blanks with random words
+
+adjective1 = input("Enter an adjective (description): ")
+noun1 = input("Enter a noun (person, place, thing): ")
+adjective2 = input("Enter an adjective (description): ")
+verb1 = input("Enter a verb ending with 'ing': ")
+adjective3 = input("Enter an adjective (description): ")
+
+print (f"Today I went to a {adjective1} zoo.")
+print(f"In an exhibit, I saw a {noun1}")
+print(f"{noun1} was {adjective2} and {verb1}")
+print(f"I was {adjective3}")
+
+
